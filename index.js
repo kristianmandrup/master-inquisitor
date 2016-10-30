@@ -4,11 +4,16 @@ const askNpmName = require('inquirer-npm-name');
 const askRepoName = require('inquirer-repo-exists');
 const folder = require('inquirer-folder-explorer');
 const askCredentials = require('inquirer-credentials');
-const test = require('inquirer-test');
+const testRun = require('inquirer-test');
 
-import { PathPrompt } from 'inquirer-path';
+// var MrInquirer = require('mr-inquirer');
+//Adding Mr Inquirer to the propts as path
+// Inquirer.registerPrompt('path', MrInquirer.path);
+// Inquirer.registerPrompt('graph-path', MrInquirer.graphPath);
 
-inquirer.registerPrompt('path', PathPrompt);
+// const { PathPrompt } = require('inquirer-path');
+
+// inquirer.registerPrompt('path', PathPrompt);
 inquirer.registerPrompt('list-input', require('inquirer-list-input'));
 inquirer.registerPrompt('directory', require('inquirer-directory'));
 
@@ -30,11 +35,13 @@ const credentials = (file) => {
   return obj
 }
 
+const { merge } = require('lodash');
+
 module.exports = merge(inquirer, {
   menu,
   folder,
-  npm,
-  repo,
+  npmName,
+  repoName,
   credentials,
   testRun
 })

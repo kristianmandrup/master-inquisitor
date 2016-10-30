@@ -182,13 +182,13 @@ inquisitor.menu(createMenu)
 - [inquirer-repo-exists](https://www.npmjs.com/package/inquirer-repo-exists)
 
 ```js
-inquisitor.npm({
+inquisitor.npmName({
   name: 'name',
   message: 'Module Name'
 })
 .then(answer => console.log(answer.name))
 
-inquisitor.repo({
+inquisitor.repoName({
   name: 'repoUrl',
   message: 'GitHub repository link (username/repo pair)'
 })

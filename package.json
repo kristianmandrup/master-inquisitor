@@ -17,6 +17,8 @@
     "inquirer-directory": "^2.0.0",
     "inquirer-folder-explorer": "kristianmandrup/inquirer-folder-explorer#master",
     "inquirer-list-input": "^0.1.2",
+    "inquirer-menu": "^1.0.0",
+    "inquirer-npm-name": "^2.0.0",
     "inquirer-path": "^1.0.0-alpha5",
     "inquirer-repo-exists": "^1.0.6",
     "inquirer-shortcuts": "^1.0.1",
