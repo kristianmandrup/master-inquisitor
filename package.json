@@ -23,7 +23,7 @@
     "inquirer-repo-exists": "^1.0.6",
     "inquirer-shortcuts": "^1.0.1",
     "inquirer-test": "^1.0.5",
-    "inquiry-traverser": "kristianmandrup/inquiry-traverser#master",
+    "inquiry-traverser": "^0.4.0",
     "lodash": "^4.16.4",
     "npm-name": "^3.0.0"
   }
