@@ -131,6 +131,25 @@ inquirer.folder('Please choose a folder', 'src')
 .catch(err => console.error(err));
 ```
 
+## Traverse
+
+- [inquirer-traverser](https://www.npmjs.com/package/inquirer-traverser)
+
+For usage, see this [basic example](https://github.com/ta2edchimp/inquiry-traverser/blob/master/examples/basic-usage.js#L7) or the [advanced example](https://github.com/ta2edchimp/inquiry-traverser/blob/master/examples/advanced-usage.js)
+
+```js
+traverse({
+  /* Put your branched questions object here */
+  })
+  .then((value) => {
+    // Handle a successfull resolution ...
+  })
+  .catch((err) => {
+    // Handle a rejection ...
+  });
+```
+
+
 ## Menus
 
 Choose from nested menus:
