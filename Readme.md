@@ -6,7 +6,7 @@ Wrapper for various [inquirer](https://www.npmjs.com/package/inquirer) libraries
 
 `npm i master-inquisitor --save`
 
-Basic Node.js `require`
+Node.js `require`
 
 ```
 const inquisitor = require('master-inquisitor')
@@ -21,8 +21,12 @@ import inquisitor from 'master-inquisitor'
 Import selected namespaces
 
 ```
-import { folder, repo } from 'master-inquisitor'
+import { folder, repoName } from 'master-inquisitor'
 ```
+
+## Demo
+
+The file `demo.js` in the repo currently contains some "demo code".
 
 ## Usage
 
