@@ -106,6 +106,8 @@ inquirer..question({
 
 ### Path
 
+*Currently unavailable* [babel-runtime error](https://github.com/aam229/inquirer-path/issues/1)
+
 Select a path
 
 ```js
