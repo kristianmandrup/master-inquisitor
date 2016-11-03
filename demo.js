@@ -46,8 +46,8 @@ function rawList() {
 function keySelect() {
   // press key and make single selection
   inquirer.expand("Favorite animal?",
-                  [{key: "c", name: "cat"}
-                   {key: "d", name: "dog"}
+                  [{key: "c", name: "cat"},
+                   {key: "d", name: "dog"},
                    {key: "w", name: "wapiti"}])
     .then(animal => console.log(animal));
 }

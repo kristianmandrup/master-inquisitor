@@ -1,6 +1,6 @@
 {
   "name": "master-inquisitor",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Masterful inquirer library, combining most of the good inquirer libs",
   "main": "index.js",
   "scripts": {
@@ -15,7 +15,7 @@
   "dependencies": {
     "inquirer-credentials": "^3.0.0",
     "inquirer-directory": "^2.0.0",
-    "inquirer-folder-explorer": "kristianmandrup/inquirer-folder-explorer#master",
+    "inquirer-folder-explorer": "^1.0.5",
     "inquirer-list-input": "^0.1.2",
     "inquirer-menu": "^1.0.0",
     "inquirer-npm-name": "^2.0.0",

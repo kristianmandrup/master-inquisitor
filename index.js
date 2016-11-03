@@ -3,7 +3,7 @@ const menu = require('inquirer-menu');
 const askNpmName = require('inquirer-npm-name');
 const askRepoName = require('inquirer-repo-exists');
 const folder = require('inquirer-folder-explorer');
-const traverser = require('inquirer-traverser');
+const traverser = require('inquiry-traverser');
 const askCredentials = require('inquirer-credentials');
 const testRun = require('inquirer-test');
 
