@@ -1,5 +1,7 @@
 # Master Inquisitor
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/kristianmandrup/master-inquisitor.svg)](https://greenkeeper.io/)
+
 Wrapper for various [inquirer](https://www.npmjs.com/package/inquirer) libraries to suit most of your requirements!
 
 ## Install
